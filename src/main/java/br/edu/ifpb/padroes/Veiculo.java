@@ -7,7 +7,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @AllArgsConstructor
-public class Veiculo {
+public class Veiculo implements Automovel {
     private String placa;
     private String modelo;
     private String cor;

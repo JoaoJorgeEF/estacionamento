@@ -12,7 +12,7 @@ public class Estacionamento {
 
     private LocalDateTime entrada;
     private LocalDateTime saida;
-    private Veiculo veiculo;
+    private Automovel veiculo;
 
     public static BigDecimal VALOR_HORA = new BigDecimal("2.00");
     public static BigDecimal VALOR_DIARIA = new BigDecimal("26.00");
